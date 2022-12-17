@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathGenius</title>
+  <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+  <div><h1>Improve your abilities<h1/></div>
+  <div>
+    <div>
+      <p>{{num1}} {{operator}} {{num2}}</p>
+    </div>
+    <form action="/result" method="get">
+      <input type="text" name="val" placeholder="Output" size="30" autofocus /></br><br>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+    <div class="result">
+      {% if score==10 %}
+      You scored: {{count}}/{{score}}
+      <br>
+      Enter any number to continue.
+      {% endif %}
+    </div>
+  </div>
+
+
+  <script src="/static/behavior/index.js"></script>
+</body>
+</html>
