@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.heading{
+text-align: center;
+font-weight: normal;
+}
+
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  
+}
+
+h2{
+  font-family: 'Hind', sans-serif;
+}
+
+input{
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  border-color: white;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+#que{
+  font-size: 3.5em;
+}
+
+#submit{
+  display: none;
+}
+
+#score{
+  color: green;
+}
+
+#reload{
+  font-size: small;
+  font-style: italic;
+  color: red;
+}
+
+#outer-form{
+  background-color: white;
+  margin: 0px;
+  padding: 1%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#form{
+  color: black;
+}
