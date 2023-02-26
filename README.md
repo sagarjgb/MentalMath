@@ -1,5 +1,5 @@
 # MentalMath
-Simple web app math calculation game using Flask.
+Simple web app math calculation game built using Flask.
 
 ![main_calculation_page](https://user-images.githubusercontent.com/75424678/208297211-1aa16c05-3035-4a9b-9131-1cad0251316d.png)
 
